@@ -1,16 +1,13 @@
 # Variance
 
-# Works
 def beta_variance(a, b):
     return print("Var: ", (a*b) / ( (a+b)**2 *(a+b+1)))
 
-
 def bin_variance(n, p):
     return print("Var: ", n * p * (1-p))
-# Works
+
 def nb_variance(r, p):
     return print("Var: ", r * (1-p) / (p**2))
-
 
 def gamma_variance(shape, scale):
     return print("Var: ", shape/(scale**2) )
