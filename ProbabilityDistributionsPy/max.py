@@ -1,14 +1,12 @@
 import math
 
 # Max
-# Works
 def bin_xmax(n, p):
     return print("X_max: ", math.floor((n + 1) * p))
 
-# Works
+
 def nb_xmax(k, p):
     return print("X_max: ", math.floor( ( (1-p) * (k-1)) / p) )
-    #return print("X_max: ", math.floor((n + p - 1)*(1-p)/p))
 
 def gamma_max(a, b):
     return print("X_max: ", (a - 1) / b)
