@@ -11,7 +11,6 @@ def nb_variance(r, p):
 
 def gamma_variance(shape, scale):
     return print("Var: ", shape/(scale**2) )
-    #return print("Var: ", (shape * scale**2) / ((shape * scale)**2) )
 
 def normal_variance(n, p):
     return print("Var: ", p**2)
